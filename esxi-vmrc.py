@@ -39,3 +39,5 @@ for elem in oc:
         s = (b)
         zindex = zindex + 1
         print "vmrc://" + LOGIN + ":" + PASSWORD + "@" + HOST + ":443/?moid=" + s.Obj, machines[zindex], power[zindex]
+
+server.disconnect()
